@@ -3,9 +3,9 @@ source :rubygems
 group :dev do
   gem 'rake'
   gem 'redgreen'
-  gem 'jeweler'
+  gem 'jeweler', '>= 1.6.0'
   gem 'activerecord', :require => 'active_record'
   gem 'activesupport', :require => 'active_support'
-  gem 'actionpack', :require => 'action_pack'
+  gem 'actionpack', '>= 7.1.0', :require => 'action_pack'
   gem 'sqlite3-ruby', :require => 'sqlite3'
 end
